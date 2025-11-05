@@ -1,68 +1,155 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Organoid Business Thesis",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#7C3AED",
+    "light": "#A78BFA",
+    "dark": "#5B21B6"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Overview",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Executive Summary",
             "pages": [
               "index",
-              "quickstart",
-              "development"
+              "executive-summary"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Introduction",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "introduction/what-are-organoids",
+              "introduction/market-opportunity",
+              "introduction/thesis-overview"
             ]
           }
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "Science",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "Biological Foundation",
             "pages": [
-              "api-reference/introduction"
+              "science/stem-cell-biology",
+              "science/organoid-development",
+              "science/types-of-organoids"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Research & Applications",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "science/disease-modeling",
+              "science/drug-discovery",
+              "science/personalized-medicine",
+              "science/regenerative-medicine"
+            ]
+          },
+          {
+            "group": "Scientific Validation",
+            "pages": [
+              "science/key-publications",
+              "science/clinical-studies",
+              "science/challenges-limitations"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Technology",
+        "groups": [
+          {
+            "group": "Manufacturing & Production",
+            "pages": [
+              "technology/culture-systems",
+              "technology/bioreactors",
+              "technology/automation",
+              "technology/quality-control"
+            ]
+          },
+          {
+            "group": "Platform Technologies",
+            "pages": [
+              "technology/3d-bioprinting",
+              "technology/microfluidics",
+              "technology/imaging-analysis",
+              "technology/ai-machine-learning"
+            ]
+          },
+          {
+            "group": "Innovation Pipeline",
+            "pages": [
+              "technology/emerging-tech",
+              "technology/scalability",
+              "technology/standardization"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Market",
+        "groups": [
+          {
+            "group": "Market Analysis",
+            "pages": [
+              "market/market-size",
+              "market/growth-drivers",
+              "market/market-segments",
+              "market/geographic-analysis"
+            ]
+          },
+          {
+            "group": "Competitive Landscape",
+            "pages": [
+              "market/key-players",
+              "market/academic-institutions",
+              "market/startups-pipeline",
+              "market/partnerships"
+            ]
+          },
+          {
+            "group": "Market Dynamics",
+            "pages": [
+              "market/regulatory-landscape",
+              "market/reimbursement",
+              "market/barriers-entry",
+              "market/opportunities"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Business Strategy",
+        "groups": [
+          {
+            "group": "Business Model",
+            "pages": [
+              "strategy/value-proposition",
+              "strategy/revenue-streams",
+              "strategy/customer-segments",
+              "strategy/go-to-market"
+            ]
+          },
+          {
+            "group": "Investment Thesis",
+            "pages": [
+              "strategy/investment-rationale",
+              "strategy/financial-projections",
+              "strategy/risk-analysis",
+              "strategy/exit-strategies"
+            ]
+          },
+          {
+            "group": "Strategic Roadmap",
+            "pages": [
+              "strategy/milestones",
+              "strategy/partnerships-ma",
+              "strategy/future-outlook"
             ]
           }
         ]
@@ -71,14 +158,14 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Key Insights",
+          "href": "/executive-summary",
+          "icon": "lightbulb"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Market Data",
+          "href": "/market/market-size",
+          "icon": "chart-line"
         }
       ]
     }
@@ -90,14 +177,14 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Contact",
+        "href": "mailto:info@organoid-business.com"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Full Report",
+      "href": "#"
     }
   },
   "contextual": {
@@ -114,9 +201,9 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/organoidbiz",
+      "github": "https://github.com/organoidbiz",
+      "linkedin": "https://linkedin.com/company/organoidbiz"
     }
   }
 }
